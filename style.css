@@ -125,6 +125,31 @@ a {
     margin-bottom: 8px;
 }
 
+/* quote */
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: right;
+    padding-right: 55px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center; 
+}
+
+.quote {
+    width: 800px;
+    margin: 125px;
+}
 
 
 
