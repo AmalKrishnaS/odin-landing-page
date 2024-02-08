@@ -151,12 +151,32 @@ a {
     margin: 125px;
 }
 
+/* cta */
 
+.main-text {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
 
+.sub-text {
+    color: #E5E7EB;
+}
 
+.cta {
+    width: 974px;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+    padding: 48px 100px;
+    border-radius: 8px;
+}
 
-
-
+.cta .signup {
+    border: 2px solid #F9FAF8;
+}
 
 
 
