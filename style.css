@@ -65,7 +65,7 @@ a {
     border-radius: 8px;
 }
 
-.upper-header-container {
+.navbar {
     display: flex;
     width: 1150px;
     margin-top: 24px;
