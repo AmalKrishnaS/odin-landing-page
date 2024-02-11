@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <nav class="navbar">
         <div class="header-logo">Header Logo</div>
         <div class="links">
@@ -26,11 +26,11 @@
     </div>
         <div class="img-placeholder">This is a place holder for an image</div>
     </div>
-    </div>
+    </header>
 
-    <div class="info">
+    <main class="info">
         <div class="info-header-text">Some random information</div>
-        <div class="info-content-container">
+        <section aria-label="product-info" class="info-content-container">
             <div class="info-content">
                 <div class="info-box"></div>
                 <div class="info-text">this is some subtext under an illustration or image</div>
@@ -47,24 +47,24 @@
                 <div class="info-box"></div>
                 <div class="info-text">this is some subtext under an illustration or image</div>
             </div>
-        </div>
-    </div>
+        </section>
+    </main>
 
-    <div class="quote-container">
-        <div class="quote">
-            <div class="quote-text">This is an inspiring quote or testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice</div>
-            <div class="quote-author">-Loki, God of Stories</div>
-        </div>
-    </div>
+    <section aria-label="quote" class="quote-container">
+        <blockquote class="quote">
+            <p class="quote-text">This is an inspiring quote or testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice</p>
+            <footer class="quote-author">-Loki, God of Stories</footer>
+        </blockquote>
+    </section>
 
-    <div class="cta">
+    <section aria-label="sign up" class="cta">
         <div class="cta-text">
-        <div class="main-text">Call to action! It's time!</div>
-        <div class="sub-text">Sign up for our product by clicking that button right over there!</div>
+        <h3 class="main-text">Call to action! It's time!</h3>
+        <p class="sub-text">Sign up for our product by clicking that button right over there!</p>
         </div>
         <button class="signup">Sign up</button>
-    </div>
+    </section>
 
-    <div class="footer">Copyright © The Odin Project 2024</div>
+    <footer class="footer">Copyright © Amal Krishna S 2024</footer>
 </body>
 </html>
